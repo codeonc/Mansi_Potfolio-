@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#My Work">My Work</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <h1>Hi, I'm <span class="auto-type"></span>
+            </div>
+         </div>
+    </div>
+    <!----------------------------------------about---------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="maanu.pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a frontend developer and designer who loves crafting clean, responsive websites. From building an Amazon clone to designing simple tools like a calculator, I enjoy bringing ideas to life with code and creativity</p>
+                    
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Developer</span><br>Building a responsive websites for uses</li>
+                            <li><span>Basic C/C++ language</span><br>Building a responsive websites for uses</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Internshala Training on Web Developer</li>
+                            <li><span>2023 - 2024</span><br>Web Development Internship at OCTANET PVT. LIMITED</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>B.tech from Computer Science & Engineering</li>
+                            <li><span>2020</span><br>Intermidiate from S.V.M Girls Inter College</li>
+                            <li><span>2018</span><br>High School from R.S.M Senior Secondary School</li>
+                        </ul>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>    
+    </div>
+    <!---------------------------------------services-------------------------------------------------->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p><b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque repudiandae aliquam esse et itaque eligendi quas sequi praesentium pariatur amet provident, temporibus aspernatur earum nemo illo iusto nam fugit!
+                    </b></p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Web Developer</h2>
+                    <p><b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque repudiandae aliquam esse et itaque eligendi quas sequi praesentium pariatur amet provident, temporibus aspernatur earum nemo illo iusto nam fugit!
+                    </b></p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>C & C++ language</h2>
+                    <p><b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque repudiandae aliquam esse et itaque eligendi quas sequi praesentium pariatur amet provident, temporibus aspernatur earum nemo illo iusto nam fugit!
+                    </b> </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="My Work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="amazon clone img.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone Website</h3>
+                        <p>The Amazon Clone Website is a fully functional e-commerce platform built using HTML and CSS. It replicates the familiar layout and design of Amazon, allowing users to browse and purchase products.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calcu img.jpg">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>A simple calculator application facilitates quick and accurate calculations by allowing users to input numbers and perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calorie img.jpg">
+                    <div class="layer">
+                        <h3>Calories burnt prediction using machine learning </h3>
+                        <p>A calorie burnt prediction project using machine learning aims to estimate the number of calories an individual burns during physical activity based on various factors like heart rate, body temperature, and duration of activity.</p>
+                        <a href=""><i class="fa-light fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------------------------------contact------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p>pandeymansi2709@gmail.com</p>
+                    <p>9151762236</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="Mansi_Resume.pdf" dounload class="btn btn2">Dounload CV</a>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <form name="submit-to-google-sheet">
+                        </form>
+
+                        <script>
+                        const scriptURL = 'https://script.google.com/macros/s/AKfycbxpeL4E6JdCX2AKsLEMy6hle0uVAf9H0NRYniaU-dkKi2I2qNrGC1uw3D99UcWVypEkSA/exec'
+                        const form = document.forms['submit-to-google-sheet']
+
+                        form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => console.log('Success!', response))
+                        .catch(error => console.error('Error!', error.message))
+                         })
+                        </script>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Mansi. Made with by me by my own</p>
+        </div>
+    </div>
+  <script>
+   
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+    
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+    
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Mansi", "from India", "Web Developer"],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: false
+    })
+</script>
+</body>
+</html>
